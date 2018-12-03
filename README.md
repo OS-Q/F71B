@@ -1,42 +1,60 @@
-﻿# M5:[长距无线网关](https://github.com/OS-Q/M5) 
-
-长距无线通信网关，属Q2系统子集
+﻿# M5:[分发节点](https://github.com/OS-Q/M5) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 有线路由网关：[M6节点](https://github.com/OS-Q/M6)
+#### 归属设备体系：[Q2](https://github.com/OS-Q/Q2)
 
-#### 短距无线网关：[M4节点](https://github.com/OS-Q/M4)
+#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
-#### 关于边缘网关节点：[Q2网关系统](https://github.com/OS-Q/Q2) 可访问 www.OS-Q.com
+## [节点描述](https://github.com/OS-Q/M5/wiki) 
 
----
+M5数据分发节点，将不同信息流进行归类分流
 
-## 简介
+### [共用资源](https://github.com/OS-Q/M5/wiki/src) 
 
-通过长距物联网实现数据和云端对接，包括使用运营商网络和私有网络
-
----
-
-## 组成
-
-#### [W17板级设备](https://github.com/OS-Q/W17)
-
-基于NB-IoT
-
-#### [W18板级设备](https://github.com/OS-Q/W18)
-
-基于2G/4G网络
-
-#### [W19板级设备](https://github.com/OS-Q/W19)
-
-基于LoRaWAN
-
-#### [W20板级设备](https://github.com/OS-Q/W20)
-
-基于专用网络
 
 ---
 
-##  www.OS-Q.com   |   qitas@qitas.cn
+边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
 
+## [包含平台](https://github.com/OS-Q/M5/wiki/index) 
+
+#### W18:[低成本平台](https://github.com/OS-Q/W18)
+
+基于低成本方案提供丰富的协同无线控制方案
+
+#### W19:[性价比平台](https://github.com/OS-Q/W19)
+
+基于广泛应用的平台提供快速实现的方案
+
+#### W20:[高性能平台](https://github.com/OS-Q/W20)
+
+基于各种高性能处理平台完成对应控制
+
+#### W21:[专用化平台](https://github.com/OS-Q/W21)
+
+基于各种专用设备完成专用领域的控
+
+#### W22:[专用化平台](https://github.com/OS-Q/W22)
+
+基于各种专用设备完成专用领域的控制
+
+## [同级节点](https://github.com/OS-Q/M5/wiki)
+
+#### M4:[转换节点](https://github.com/OS-Q/M4)
+
+数据转换节点，多入单出管道通信
+
+#### -> M5:[分发节点](https://github.com/OS-Q/M5)
+
+数据分发节点，多入多出数据分发
+
+#### M6:[网络节点](https://github.com/OS-Q/M6)
+
+网络接入节点，物联和互联网接壤
+
+---
+
+###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
+###  qitas@qitas.cn
+###  2018-12-3
