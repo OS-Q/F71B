@@ -1,4 +1,4 @@
-﻿# M5：[数据分发](https://github.com/OS-Q/M5) 
+﻿# M5：[通信终端](https://github.com/OS-Q/M5) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -8,55 +8,62 @@
 
 ## [节点描述](https://github.com/OS-Q/M5/wiki) 
 
-M5 数据分发节点，将不同信息流进行归类分流
+M5通信终端节点，兼具通信和控制功能
 
-### [共用资源](https://github.com/OS-Q/M5/wiki/src) 
+### [共用资源](https://github.com/OS-Q/M5/wiki) 
 
+#### [数据处理](IO/)
+
+包括串口数据的收发格式
+
+#### [归一化层](OS-Q/)
+
+平台开发的归一化接口文件
 
 ---
 
-边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
+- 边缘设备统一命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
 
-## [包含平台](https://github.com/OS-Q/M5/wiki/index) 
+## [包含平台](https://github.com/OS-Q/M5/wiki) 
 
-#### W18：[信息守候](https://github.com/OS-Q/W18)
+#### W18：[BLE](https://github.com/OS-Q/W18)
 
-基于低成本方案提供丰富的协同无线控制方案
+低功耗蓝牙通信
 
-#### W19：[性价比平台](https://github.com/OS-Q/W19)
+#### W19：[433](https://github.com/OS-Q/W19)
 
-基于广泛应用的平台提供快速实现的方案
+基于433MHz无线通信解决方案
 
-#### W20：[高性能平台](https://github.com/OS-Q/W20)
+#### W20：[WIFI](https://github.com/OS-Q/W20)
 
-基于各种高性能处理平台完成对应控制
+基于WiFi无线控制方案
 
-#### W21：[专用化平台](https://github.com/OS-Q/W21)
+#### W21：[USB](https://github.com/OS-Q/W21)
 
-基于各种专用设备完成专用领域的控
+基于USB的直接通信控制
 
-#### W22：[专用化平台](https://github.com/OS-Q/W22)
+#### W22：[广域无线](https://github.com/OS-Q/W22)
 
-基于各种专用设备完成专用领域的控制
+基于广域无线网络的通信控制
 
 ## [同级节点](https://github.com/OS-Q/Q2/wiki)
 
-#### M4：[数据转换](https://github.com/OS-Q/M4)
+#### M4：[数据桥接](https://github.com/OS-Q/M4)
 
-数据转换节点，N -> 1管道通信
+作为通信桥梁转换或增强相应信号
 
-#### -> M5：[数据分发](https://github.com/OS-Q/M5)
+#### -> M5：[通信终端](https://github.com/OS-Q/M5)
 
-数据分发节点，1 -> N管道通信
+集成通信和控制的一体化边缘节点
 
-#### M6：[网络节点](https://github.com/OS-Q/M6)
+#### M6：[数据路由](https://github.com/OS-Q/M6)
 
-网络接入节点，物联和互联网边界
+物联设备内部数据交换和网络连接
 
 ---
 
-###  qitas@qitas.cn
+####  © qitas@qitas.cn
+###  [OS-Q redefined Operation System](http://www.OS-Q.com)
+####  @ 2018-12-12
 
-###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
-
-####  2018-12-6
+---
