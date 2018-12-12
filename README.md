@@ -26,21 +26,21 @@ M5通信终端节点，兼具通信和控制功能
 
 ## [包含平台](https://github.com/OS-Q/M5/wiki) 
 
-#### W18：[BLE](https://github.com/OS-Q/W18)
+#### W18：[有线终端](https://github.com/OS-Q/W18)
 
-低功耗蓝牙通信
+基于USB等有线通信控制
 
 #### W19：[433](https://github.com/OS-Q/W19)
 
 基于433MHz无线通信解决方案
 
-#### W20：[WIFI](https://github.com/OS-Q/W20)
+#### W20：[BLE](https://github.com/OS-Q/W20)
+
+基于蓝牙和低功耗蓝牙通信
+
+#### W21：[WIFI](https://github.com/OS-Q/W21)
 
 基于WiFi无线控制方案
-
-#### W21：[USB](https://github.com/OS-Q/W21)
-
-基于USB的直接通信控制
 
 #### W22：[广域无线](https://github.com/OS-Q/W22)
 
