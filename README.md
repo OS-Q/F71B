@@ -28,25 +28,25 @@ M5无线终端节点，兼具无线通信和简单的控制功能
 
 ## [包含平台](https://github.com/OS-Q/M5/wiki) 
 
-#### W18：[嵌入集成](https://github.com/OS-Q/W18)
+#### W18：[短距标签](https://github.com/OS-Q/W18)
 
-集成化设备模块，方便嵌入到其他设备中运行
+用于短距标记物品的身份信息
 
-#### W19：[低功耗](https://github.com/OS-Q/W19)
+#### W19：[低频通信](https://github.com/OS-Q/W19)
 
-基于低功耗软硬件设计的无线通信控制设备
+用于低频的无线数据交互控制
 
-#### W20：[通用连接](https://github.com/OS-Q/W20)
+#### W20：[实时通信](https://github.com/OS-Q/W20)
 
-基于蓝牙等通用化无线连接设备
+用于实时的无线数据交互控制
 
-#### W21：[网络连接](https://github.com/OS-Q/W21)
+#### W21：[智能组网](https://github.com/OS-Q/W21)
 
-基于WiFi等网侧无线通信控制
+无线节点间智能策略组合通信
 
-#### W22：[广域覆盖](https://github.com/OS-Q/W22)
+#### W22：[交互连接](https://github.com/OS-Q/W22)
 
-基于广域无线网络的通信控制
+基于人机交互的无线通信控制
 
 ## [同级节点](https://github.com/OS-Q/Q2/wiki)
 
