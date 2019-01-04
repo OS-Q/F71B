@@ -2,13 +2,13 @@
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 归属通信体系：[Q2](https://github.com/OS-Q/Q2)
+#### 归属边缘通信：[Q2](https://github.com/OS-Q/Q2)
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 ## [节点描述](https://github.com/OS-Q/M5/wiki) 
 
-M5无线终端节点，兼具无线通信和简单的控制功能
+M5无线终端节点，作为终端设备集成通信和控制功能，处理各种控制事件
 
 ### [共用资源](OS-Q/)
 
@@ -18,7 +18,7 @@ M5无线终端节点，兼具无线通信和简单的控制功能
 
 #### [系统化层](OS-Q/)
 
-平台开发的归一化接口
+系统开发归一化接口
 
 ---
 
@@ -28,13 +28,13 @@ M5无线终端节点，兼具无线通信和简单的控制功能
 
 ## [包含平台](https://github.com/OS-Q/M5/wiki) 
 
-#### W18：[短距标签](https://github.com/OS-Q/W18)
+#### W18：[被动通信](https://github.com/OS-Q/W18)
 
-用于短距标记物品的身份信息
+被动触发唤醒进行相应的交互
 
-#### W19：[低频通信](https://github.com/OS-Q/W19)
+#### W19：[定时通信](https://github.com/OS-Q/W19)
 
-用于低频的无线数据交互控制
+用于低频次定时数据通信控制
 
 #### W20：[实时通信](https://github.com/OS-Q/W20)
 
@@ -42,9 +42,9 @@ M5无线终端节点，兼具无线通信和简单的控制功能
 
 #### W21：[智能组网](https://github.com/OS-Q/W21)
 
-无线节点间智能策略组合通信
+通信节点间智能策略组合通信
 
-#### W22：[交互连接](https://github.com/OS-Q/W22)
+#### W22：[交互控制](https://github.com/OS-Q/W22)
 
 基于人机交互的无线通信控制
 
@@ -66,4 +66,4 @@ M5无线终端节点，兼具无线通信和简单的控制功能
 
 ####  © qitas@qitas.cn
 ###  [OS-Q redefined Operation System](http://www.OS-Q.com)
-####  @ 2018-12-12
+####   @  2019-1-4
