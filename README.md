@@ -20,7 +20,7 @@ Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
 		* W18：[环形网络](https://github.com/OS-Q/W18)
 		* W19：[总线网络](https://github.com/OS-Q/W19)
 		* W20：[树形网络](https://github.com/OS-Q/W20)
-		* W21：[混合网络](https://github.com/OS-Q/W21)
+		* W21：[网形网络](https://github.com/OS-Q/W21)
 		* W22：[蜂窝网络](https://github.com/OS-Q/W22)
     * M6：[通信网关](https://github.com/OS-Q/M6)
 
