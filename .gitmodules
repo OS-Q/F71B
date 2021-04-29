@@ -1,3 +1,0 @@
-[submodule "source"]
-	path = source
-	url = https://gitee.com/rtthread/rt-thread.git
